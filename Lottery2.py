@@ -1,5 +1,7 @@
 from tkinter import *
 
+#Author Athenkosi Gongotha
+
 from random import randint
 import random
 import datetime
@@ -70,7 +72,7 @@ n6 = StringVar()
 t = StringVar()
 
 win2.geometry('1115x320')
-win2.title('Lottery machine')
+win2.title('A G Lottery machine')
 win2.config(bg='#086972')
 l0 = Label(win2, text='The\n National\n Lottery', width=20, bg='gold', font=('Times')).grid(columnspan=8, row=0, column=2, pady=20)
 
